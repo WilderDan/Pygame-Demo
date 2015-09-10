@@ -1,0 +1,132 @@
+# All values of the items in the sections are treated as strings.
+#
+# When defining tileset, the game will look in the image subdirectory 
+# of the main folder (demo). As such, just define the filename of the
+# tileset as it appears within that directory. 
+#
+# Each layer can only use ONE tileset. 
+
+
+[back_layer]
+
+tileset = viking50.bmp
+
+structure    =        wwwwwwwwwwwwwwwwwwwwww
+                      wwwwwwwwwwwwwmwwwwuiow
+                      wmwwwwmwwwwwwwwwbwjklw
+                      wwwwwwwwwwwwmwwwwwwwww
+                      wwmwwwwwwwwwwwmwwwwwww
+                      wwwwwwwqqwwwwwwwwwwbww
+                      wwwwwwqaaqwwwwwwwbwwww
+                      wwmwwwazzawwwmwwwwwwww
+                      mwwwwwzsdzwwwwwwwwwwww
+                      wwwwwtwxcw3wwwwwbwwwwb
+                      wmwwwwwnwwwwwwwwwwwwww
+                      wwwwwwwwwwwwwwwbwwwwww
+                      wwwwwwwwwwwwwwwwwwwwwb
+
+[front_layer]
+
+ 
+
+# Stop being lazy!!! Add comment above each item describing tile representation!!!!
+
+[w]
+tile_xcoord = 0
+tile_ycoord = 0
+
+[#]
+tile_xcoord = 8
+tile_ycoord = 9
+wall = true
+
+[q]
+tile_xcoord = 3
+tile_ycoord = 0
+wall = true
+
+[a]
+tile_xcoord = 4
+tile_ycoord = 0
+wall = true
+
+[z]
+tile_xcoord = 5
+tile_ycoord = 0
+wall = true
+
+[s]
+tile_xcoord = 8
+tile_ycoord = 3
+wall = true
+
+[d]
+tile_xcoord = 8
+tile_ycoord = 4
+wall = true
+
+[x]
+tile_xcoord = 9
+tile_ycoord = 3
+wall = true
+
+[c]
+tile_xcoord = 9
+tile_ycoord = 4
+wall = true
+
+[t]
+tile_xcoord = 1
+tile_ycoord = 2
+wall = true
+
+[b]
+tile_xcoord = 6
+tile_ycoord = 3
+wall = true
+
+[n]
+tile_xcoord = 6
+tile_ycoord = 2
+
+
+[m]
+tile_xcoord = 6
+tile_ycoord = 1
+wall = true
+
+[u] 
+tile_xcoord = 6
+tile_ycoord = 10
+
+[i]
+tile_xcoord = 6
+tile_ycoord = 11
+
+[j]
+tile_xcoord = 7
+tile_ycoord = 10
+
+[k]
+tile_xcoord = 7
+tile_ycoord = 11
+
+[o]
+tile_xcoord = 6
+tile_ycoord = 12
+
+[l]
+tile_xcoord = 7
+tile_ycoord = 12
+
+
+[3]
+tile_xcoord = 5
+tile_ycoord = 4
+wall = true
+
+
+
+
+
+
